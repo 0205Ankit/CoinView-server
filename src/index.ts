@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import { StatusCodes } from "http-status-codes"; //???
 import morgan from "morgan";
 import cors from "cors";
-import globalRoutes from "../routes";
+import globalRoutes from "./routes";
 
 dotenv.config();
 
