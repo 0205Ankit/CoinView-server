@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const morgan_1 = __importDefault(require("morgan"));
 const cors_1 = __importDefault(require("cors"));
-const routes_1 = __importDefault(require("../routes"));
+const routes_1 = __importDefault(require("./routes"));
 dotenv_1.default.config();
 // init app
 const PORT = 4100;
